@@ -8,7 +8,7 @@ body {
     overflow-x: hidden;
 }
 .home {
-background-image: url(/images/the-town-bg-01.jpg);
+background-image: url(images/the-town-bg-01.jpg);
 background-position: center;
 background-attachment: fixed;
 background-size: cover;
