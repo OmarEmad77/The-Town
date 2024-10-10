@@ -1,0 +1,389 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+.home {
+background-image: url(1/images/the-town-bg-01.jpg);
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+height: 100vh;
+margin-left: 7px;
+margin-bottom: 0px;
+padding-top: 80px;
+}
+nav {
+  background-color:#e69b8496;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  z-index: 3000;
+  box-shadow: 0px -3px 11px black;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+nav h2  {
+    width: 28%;
+    font-size: 1.5rem;
+    margin: 20px 150px;
+    display: inline-block;
+}
+.town {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+nav ul {
+    width: 47%;
+    display: inline-block;
+    margin-left: 70px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 25px 40px;
+    list-style: none;
+}
+nav ul li a:hover {
+    color: blue;
+}
+nav h2 .town:hover {
+    color: blue;
+
+}
+h1 {
+    color: white;
+    font-size: 4rem; 
+    text-shadow: 2px 2px 6px black;
+}
+.content-home pre {
+color: white;
+font-size: 23px;
+margin-right: 130px;
+line-height: 2.5rem;
+margin-bottom: -20px;
+}
+.content-home {
+    text-align: center;
+    margin: 150px 0px;
+}
+.scroll-nav{
+    background-color: #e69b8400;
+    width: 100%;
+    height: 80px;
+    transition: all 0.3s 0.1s linear;
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+    display: block;
+    color: aqua;
+}
+.button-intro {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: -75px;
+    border-radius: 50%;
+    position: relative;
+}
+.button-intro::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-width: 30px;
+    border-style: solid;
+    border-color: #c57e7d transparent transparent transparent;
+    border-radius: 10px;
+    position: absolute;
+    top: 42%;
+    left: 21%;
+    cursor: pointer;
+}
+.button-intro::before:hover {
+    color: white;
+    background: #3496d8;
+}
+.button-intro:hover {
+    color: white;
+    background: #3496d8;
+}
+.introduction {
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.intro-img {
+    width: 40%;
+    display: inline-block;
+    margin-left: 100px;
+    height: 450px;
+}
+.intro-img img {
+  position: absolute;
+  top: 0;
+}
+.intro-img-descraption {
+    width: 35%;
+    display: inline-block;
+   margin-left: 100px;
+   position: absolute;
+   top: -25px;
+   height: 480px;
+   margin-bottom: 10px;
+}
+.intro-img-descraption h2 {
+    color: rgb(53, 149, 215);
+    font-weight: 400;
+    padding-bottom: 20px;
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+.intro-img-descraption p {
+    color: rgb(147, 161, 181);
+    font-size: 22px;
+    width: 555px;
+    line-break: auto;
+    line-height: 1.4;
+}
+.outsite-link {
+    color: rgb(62, 147, 205);
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 3px;
+}
+.outsite-link:hover {
+color: blue;
+}
+.more {
+    text-align: center;
+    margin-left: 0px;
+    background: #3496d8;
+    padding: 20px 30px;
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 20px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.more:hover{
+    color: white;
+    background-color: #3496d880;
+}
+.details {
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 70px;
+}
+.one,.two,.three {
+    width: 28%;
+    display: inline-block;
+    margin-left: 30px;
+}
+.icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 15;
+    top: 30px;
+    margin-left: 170px;
+    color: rgb(52, 149, 216);
+}
+.one h3,.two h3,.three h3 {
+    color: rgb(90, 151, 200);
+    text-align: center;
+    font-size: 22px;
+    margin-top: 150px;
+    margin-bottom: 40px;
+    z-index: 12;
+}
+.one p,.two p,.three p {
+    color: rgb(175, 173, 175);
+    font-size: 20px;
+    line-height: 1.9;
+}
+.our-work {
+    width: 100%;
+    margin-top: 120px;
+    height: 650px;
+}
+.our-work h2 {
+text-align: center;
+color: rgb(53, 149, 215);
+font-weight: 400;
+padding-bottom: 20px;
+font-size: 45px;
+text-transform: capitalize;
+} 
+.our-work p {
+    color: rgb(147, 161, 181);
+    font-size: 18px;
+    line-break: auto;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.images {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.img-one,.img-two,.img-three,.img-four,.img-five {
+    width: 18%;
+    display: inline-block;
+}
+.contact-us {
+ width: 100%;
+background-image: url(1/images/the-town-bg-02.jpg);
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+height: 100vh;
+padding-top: 100px;
+padding-left: 300px;
+}
+.contact-us h2 {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+.contact-us p {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.4;
+}
+.contact-elments {
+width: 80%;
+}
+.contact-us span {
+    background-color: #ffffff;
+    width: 65%;
+    height: 2px;
+    position: absolute;
+}
+.contact-us span::after {
+    content: "";
+    width: 280px;
+    height: 10px;
+    background-color: #ffffff;
+    position: absolute;
+}
+.footer {
+    margin-top: 0px;
+    width: 70%;
+    position: relative;
+}
+.icons-one {
+    width: 48%;
+    display: inline-block;
+}
+.drop-one {
+    display: block;
+    width: 80px;
+    height: 147px;
+}
+.icons-one a {
+    margin-left: 77px;
+    margin-top: -80px;
+    height: 0px;
+}
+.drop-two {
+    position: absolute;
+    width: 80px;
+    height: 100px;
+    left: -3px;
+}
+.drop-three {
+    width: 80px;
+    height: 220px;
+    position: absolute;
+    top:-40px;
+}
+.map {
+    margin-bottom: 20px;
+    position: absolute;
+    top: 224px;
+    z-index: 2000;
+    left: -75px;
+}
+.tel {
+    position: absolute;
+    top: 100px;
+    left: -75px;
+}
+.icons-two {
+    width: 48%;
+    display: inline-block;
+}
+.icons-two .mail{
+    position: absolute;
+    height: 0px;
+    top: 20px;
+    right: 210px;
+}
+.tel,.map,.mail {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+    padding: 40px;
+    padding-right: 0px;
+    padding-left: 70px;
+}
+.tel:hover,.map:hover,.mail:hover {
+    color: #3496d8;
+} 
+.icons-two form {
+    position: absolute;
+    top: 175px;
+    width: 450px;
+}
+.icons-two form input {
+    padding: 18px;
+    border-radius: 10px;
+}
+.place-holder {
+    color: black;
+    text-transform: capitalize;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 15px;
+}
+.save {
+    margin-left: 31px;
+    color: black;
+    text-transform: capitalize;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    width: 130px;
+}
+.end {
+    text-align: center;
+    margin-right: 220px;
+    margin-top: 40px;
+    padding-top: 120px;
+}
