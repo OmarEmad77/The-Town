@@ -253,7 +253,7 @@ text-transform: capitalize;
 }
 .contact-us {
  width: 100%;
-background-image: url(/images/the-town-bg-02.jpg);
+background-image: url(/the-town-bg-02.jpg);
 background-position: center;
 background-attachment: fixed;
 background-size: cover;
